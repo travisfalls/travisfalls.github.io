@@ -1,0 +1,315 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 30px;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+::selection {
+	background: #ffc600;
+}
+
+/* Header */
+header {
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+}
+
+header img {
+	height: 75px;
+	padding: 12.5px;
+	float: left;
+	position: absolute;
+}
+
+#mainNav {
+	float: right;
+	display: inline-block;
+	padding: 35px 30px 30px 30px;
+	text-align: center;
+	position: relative;
+}
+
+
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Baloo Bhai', cursive;
+	font-weight: lighter;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+#mainNav a:hover {
+	background-color: #ffc600;
+	color: #333333;
+}
+
+/* Banner */
+.banner {
+	width: 100%;
+	max-width: 1280px;
+	height: 600px;
+	background: url("img/indy_droid_banner_2.jpg") center center no-repeat;
+	background-size: cover;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+}
+
+.bannerText {
+	width: 33%;
+	height: auto;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 3px;
+	position: absolute;
+	margin: 0px 0px 0px 60px;
+	top: 20%;
+}
+
+#banner h1 {
+	color: #333333;
+}
+
+
+/* About */
+#about {
+	width: 100%;
+	height: 500px;
+	background: url("img/Indy_Droids_Peace.jpg") left top;
+	background-size: 610px 610px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.about-text {
+	width: 50%;
+	height: auto;
+	padding: 20px;
+	margin: 0px 0px 0px 60px;
+	background-color: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 15%;
+	float: left;
+}
+
+#about h1 {
+	text-align: left;
+	color: #333333;
+}
+
+
+/* Shop */
+#shop {
+	width: 100%;
+	background-color: #333333;
+	position: relative;
+}
+
+.droids {
+	background: url("img/droid_shop.jpg") center top no-repeat;
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+
+.tshirts {
+	background: url("img/droid_tshirt.jpg") center center no-repeat;
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.stickers {
+	background: url("img/droid_sticker.jpg") center center no-repeat;
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 40px;
+	position: relative;
+}
+
+.merchBtn {
+	border-radius: 3px;
+	width: 150px;
+	border: 3px solid #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+	position: relative;
+	top: 40%
+}
+
+.merchBtn:hover {
+	background-color: rgba(255, 198, 0, 1);
+	border: 3px solid #ffc600;
+}
+
+/* Blog */
+#blog {
+	clear: both;
+	width: 100%;
+	height: auto;
+	padding: 30px 0px 30px 0px;
+	position: relative;
+	background-color: #ffc600
+}
+
+.blog-text {
+	width: 75%;
+	height: auto;
+	margin: 0px auto 0px auto;
+	padding: 30px;
+	background-color: white;
+	border-radius: 3px;
+	position: relative;
+}
+
+/* Contact */
+legend {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 24px;
+}
+
+#contact {
+	clear: left;
+	padding: 30px 30px 30px 70px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+#contact button {
+	background-color: #ffc600;
+	font-size: 16px;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+    border: 0;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+#contact button:hover {
+	background-color: #333333;
+	color: white;
+}
+
+#contact input {
+	width: 300px;
+}
+
+input {
+	border-radius: 3px;
+	appearance: none;
+}
+
+textarea {
+	width: 600px;
+	height: 300px;
+	border-radius: 3px;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+	position: relative;
+	margin: 0;
+}
+
+.copyRight {
+	color: white;
+	float: left;
+	font-size: 10px;
+	padding: 0px 50px 0px 50px;
+	position: relative;
+	top: 20%;
+}
+
+.copyRight a {
+	text-decoration: none;
+	color: #ffc600;
+}
+
+.copyRight a:hover {
+	color: white;
+}
+
+.soc-buttons {
+	height: 75px;
+	padding: 0px 20px 0px 20px;
+	position: relative;
+	top: 35%;
+	float: right;
+}
+
+span.icon a:link {
+	display: block;
+	text-indent: -9999px;
+}
+
+span.insta-button a:link {
+	width: 30px;
+	height: 30px;
+	background: url("img/instagram_icon.png") no-repeat;
+	transition: all 0.2s ease;
+	float:left;
+	padding: 0px 5px 0px 5px;
+}
+
+span.insta-button a:hover {
+	background-position: 0px -30px;
+	overflow: hidden;
+}
+
+span.twitter-button a:link {
+	width: 30px;
+	height: 30px;
+	background: url("img/twitter_icon.png")no-repeat;
+	transition: all 0.2s ease;
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+
+span.twitter-button a:hover {
+	background-position: 0px -30px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
