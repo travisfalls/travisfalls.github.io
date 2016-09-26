@@ -244,6 +244,10 @@ legend {
 	color: white;
 }
 
+#contact button:focus {
+	background-color: #666666;
+}
+
 #contact input {
 	width: 300px;
 }
