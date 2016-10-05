@@ -1,10 +1,6 @@
 body {
 	padding-top:50px;
-}
-
-.container {
-	background-color: #333333;
-	padding: 0px;
+	font-family: arial, sans-serif;
 }
 
 .container-fluid {
@@ -17,7 +13,7 @@ body {
 }
 
 #brand {
-	padding: 4px 4px 4px 8px;
+	padding: 4px 4px 4px 12px;
 }
 #brand img {
 	height: 100%;
@@ -41,8 +37,10 @@ body {
 /*feature area*/
 #feature {
 	background: url(img/feature_image.jpg) center center no-repeat;
-	height: 600px;
-	width: 100%;
+	background-size: cover;
+	padding: 100px 0px 100px 0px;
+	/*height: 800px;
+	width: 100%;*/
 	position: relative;
 }
 
@@ -64,6 +62,11 @@ body {
 #about-section {
 	background-color: #a6ce39;
 	color: #333333;
+	position: relative;
+}
+
+#about-text {
+	padding: 20px 20px 20px 20px;
 }
 
 #headshot {
@@ -72,8 +75,7 @@ body {
 	width: 350px;
 	height: 350px;
 	background-size: 350px;
-	margin: 10px auto 10px auto;
-	padding: 10px;
+	margin: 30px auto 30px auto;
 	position: relative;
 }
 
@@ -97,6 +99,16 @@ body {
 	background-color: white;
 	height: 400px;
 }
+
+/*portfolio section*/
+#portfolio-section img{
+	width: 100%;
+	height: auto;
+	padding: 25px 0px 25px 0px;
+}
+
+
+
 
 
 
