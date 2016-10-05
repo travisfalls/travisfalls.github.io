@@ -1,34 +1,102 @@
-body{
-	padding-top:70px;
+body {
+	padding-top:50px;
 }
 
-.container{
+.container {
 	background-color: #333333;
+	padding: 0px;
+}
+
+.container-fluid {
+	padding: 0px;
 }
 
 /*Top Navigation*/
-#top-navigation{
+#top-navigation {
 	border: 0;
 }
 
-#brand{
-	padding: 0px 0px 0px 5px;
+#brand {
+	padding: 4px 4px 4px 8px;
 }
-#brand img{
+#brand img {
 	height: 100%;
 	padding: 0;
 	margin: 0;
 }
 
-#nav-buttons{
+#nav-buttons {
 	padding-right: 20px;
 }
 
-#nav-buttons a{
+#nav-buttons a {
 	transition: all 0.3s ease;
 }
 
-#nav-buttons a:hover{
+#nav-buttons a:hover {
 	background-color: #a6ce39;
 	color: #333333;
 }
+
+/*feature area*/
+#feature {
+	background: url(img/feature_image.jpg) center center no-repeat;
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+.feature-content {
+	display: block;
+	position: relative;
+	top: 5%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	color: #818182;
+	padding: 25px 0px 0px 0px;
+}
+
+.bullets {
+	color: #a6ce39;
+}
+
+/*about section*/
+#about-section {
+	background-color: #a6ce39;
+	color: #333333;
+}
+
+#headshot {
+	border-radius:50%;
+	background: url("img/travis_headshot.png") center center no-repeat;
+	width: 350px;
+	height: 350px;
+	background-size: 350px;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	position: relative;
+}
+
+.custom-button {
+	background-color: transparent;
+	width: 200px;
+	border: 2px #333333 solid;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #333333;
+	transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+	background-color: #333333;
+	color: #a6ce39;
+}
+
+/*skills section*/
+#skills-section {
+	background-color: white;
+	height: 400px;
+}
+
+
+
