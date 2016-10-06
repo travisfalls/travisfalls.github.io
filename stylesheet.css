@@ -70,7 +70,7 @@ body {
 }
 
 #about-text {
-	padding: 20px 20px 20px 20px;
+	padding: 50px 20px 20px 20px;
 }
 
 #headshot {
@@ -181,5 +181,78 @@ textarea {
 	height: 300px;
 	border-radius: 3px;
 }
+
+/*social section*/
+#social-section{
+	width: 100%;
+	background-color: #a6ce39;
+	position: relative;
+	margin: 0px auto 0px auto;
+}
+
+.soc-buttons {
+	width: 100%;
+	height: 170px;
+	/*position: relative;*/
+	text-align: center;
+	margin: 0px auto 0px auto;
+}
+
+span.icon {
+	margin: 0px auto 0px auto;
+}
+
+span.icon a:link {
+	display: block;
+	text-indent: -9999px;
+}
+
+span.linkedin-button a:link {
+	width: 100px;
+	height: 100px;
+	background: url("img/linkedin_icon.png") no-repeat;
+	/*transition: all 0.2s ease;*/
+	/*float:left;*/
+	padding: 0px 20px 0px 20px;
+	position: absolute;
+}
+
+span.linkedin-button a:hover {
+	background-position: 0px -100px;
+	overflow: hidden;
+}
+
+span.github-button a:link {
+	width: 100px;
+	height: 100px;
+	background: url("img/github_icon.png")no-repeat;
+	/*transition: all 0.2s ease;*/
+	/*float: left;*/
+	padding: 0px 20px 0px 20px;
+	margin: 0px auto 0px auto;
+	position: relative;
+}
+
+span.github-button a:hover {
+	background-position: 0px -100px;
+	overflow: hidden;
+}
+
+/*footer section*/
+#footer {
+	background-color: #333333;
+	color: white;
+	height: 50px;
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 15px;
+	text-align: center;
+}
+
+
+
+
+
+
 
 
