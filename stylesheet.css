@@ -1,6 +1,10 @@
 body {
 	padding-top:50px;
-	font-family: arial, sans-serif;
+	font-family: 'arial', sans-serif;
+}
+
+::selection {
+	background: #a6ce39;
 }
 
 .container-fluid {
@@ -101,14 +105,74 @@ body {
 }
 
 /*portfolio section*/
+#portfolio-section p{
+	text-align: center;
+	margin: -20px 0px 0px 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
 #portfolio-section img{
 	width: 100%;
 	height: auto;
 	padding: 25px 0px 25px 0px;
 }
 
+/*contact section*/
+#contact-section {
+	background-color: #333333;
+	padding: 20px 0px 20px 0px;
+	clear: left;
+	padding: 30px 30px 30px 70px;
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 20px auto 0px auto;
+}
 
+#contact-form {
+	background-color: white;
+	padding: 20px;
+	border-radius: 3px;
+}
 
+legend {
+	font-family: 'arial', sans-serif;
+	font-size: 24px;
+}
 
+#contact-section button {
+	background-color: #a6ce39;
+	font-size: 16px;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+    border: 0;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+#contact-section button:hover {
+	background-color: #333333;
+	color: white;
+}
+
+#contact-section button:focus {
+	background-color: #666666;
+}
+
+#contact-section input {
+	width: 50%;
+}
+
+input {
+	border-radius: 3px;
+	appearance: none;
+}
+
+textarea {
+	width: 100%;
+	height: 300px;
+	border-radius: 3px;
+}
 
 
