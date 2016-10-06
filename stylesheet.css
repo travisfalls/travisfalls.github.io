@@ -120,6 +120,8 @@ body {
 
 /*contact section*/
 #contact-section {
+	background: url('img/dark_laptop_background.jpg') center center no-repeat;
+	background-size: cover;
 	background-color: #333333;
 	padding: 20px 0px 20px 0px;
 	clear: left;
@@ -130,7 +132,7 @@ body {
 }
 
 #contact-form {
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.9);
 	padding: 20px;
 	border-radius: 3px;
 }
@@ -138,6 +140,11 @@ body {
 legend {
 	font-family: 'arial', sans-serif;
 	font-size: 24px;
+}
+
+#contact-section label {
+	padding: 20px 0px 0px 0px;
+	margin: 0px;
 }
 
 #contact-section button {
