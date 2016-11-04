@@ -7,6 +7,10 @@ body {
 	background: #a6ce39;
 }
 
+::focus {
+	background: #a6ce39;
+}
+
 .container-fluid {
 	padding: 0px;
 }
