@@ -44,7 +44,7 @@ body {
 
 /*feature area*/
 #feature {
-	background: url(img/feature_image.jpg) center center no-repeat;
+	background: url(img/feature_image_contrast.jpg) center center no-repeat;
 	background-size: cover;
 	padding: 100px 0px 100px 0px;
 	/*height: 800px;
