@@ -170,17 +170,17 @@ overflow:hidden;
 top:0;
 left:0;
 opacity:0;
-background-color:rgba(0,0,0,0.5);
+background-color:rgba(163,205,86,0.95);
 -webkit-transition:all .4s ease-in-out;
 transition:all .4s ease-in-out
 }
 
 .hovereffect .overlay p {
-	color:#fff;
+	color:#243d08;
 text-align:left;
 position:relative;
 font-size:12px;
-background:rgba(0,0,0,0.6);
+/*background:rgba(0,0,0,0.6);*/
 -webkit-transition:all .2s ease-in-out;
 transition:all .2s ease-in-out;
 padding:30px;
@@ -195,11 +195,11 @@ transition:all .4s linear;
 
 .hovereffect h2 {
 text-transform:uppercase;
-color:#fff;
+color:#243d08;
 text-align:center;
 position:relative;
 font-size:17px;
-background:rgba(0,0,0,0.6);
+/*background:rgba(0,0,0,0.6);*/
 -webkit-transform:translatey(-100px);
 -ms-transform:translatey(-100px);
 transform:translatey(-100px);
