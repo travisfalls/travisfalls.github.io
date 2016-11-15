@@ -175,7 +175,7 @@ background-color:rgba(0,0,0,0.5);
 transition:all .4s ease-in-out
 }
 
-.hovereffect p {
+.hovereffect .overlay p {
 	color:#fff;
 text-align:left;
 position:relative;
