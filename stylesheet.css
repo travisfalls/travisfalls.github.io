@@ -18,11 +18,13 @@ body {
 /*Top Navigation*/
 #top-navigation {
 	border: 0;
+	background-color: #fefefe;
 }
 
 #brand {
 	padding: 4px 4px 4px 12px;
 }
+
 #brand img {
 	height: 100%;
 	padding: 0;
